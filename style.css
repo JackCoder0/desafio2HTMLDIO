@@ -22,10 +22,13 @@ body {
 .menu {
     width: 100px;
     padding: 10px 20px 0px;
+    display: flex;
 }
 .menu a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu ul{
     list-style: none;
@@ -33,19 +36,41 @@ body {
 }
 .header {
     min-height: 100px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header img{
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .content {
-    background-color: white;
     min-height: 300px;
     padding: 20px;
+    text-align: justify;
+    margin: 0 auto;
 }
+.content img{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
 .footer {
     min-height: 150px;
-    font-size: small;
+    font-size: medium;
+    text-align: center;
 }
 .align-text{
     text-align: justify;
+}
+
+p,h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
