@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 100px;
+    padding: 10px 20px 0px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul{
+    list-style: none;
+    font-size: 15px;
+}
+.header {
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    min-height: 150px;
+    font-size: small;
+}
+.align-text{
+    text-align: justify;
+}
