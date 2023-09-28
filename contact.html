@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários | Clínica Vitallis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="horary.html">Horários</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img/Vitallis.png" width="160px">
+            </div>
+    
+            <div class="content">
+                <h3>Contato</h3>    
+                <hr>
+                <p>Entre em contato conosco através do número (11) 9876-5432 (WhatsAPP) ou através do formulário abaixo: </p>
+                <br>    
+                <form method="post">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                            <label>Nome: </label><input type="text" /><br>
+                            <label>Telefone: </label><input type="number" /><br>
+                            <label>E-mail: </label><input type="email" /><br>
+                    </fieldset><br>
+                    <fieldset>
+                        <legend>Informações Técnicas</legend>
+                            <label for="servicos">Escolha um serviço:</label>
+                                <select id="servicos" name="servicos">
+                                    <option value="s1">Consulta Ortopédica Geral</option>
+                                    <option value="s2">Cirurgia Ortopédica</option>
+                                    <option value="s3">Reabilitação e Fisioterapia</option>
+                                    <option value="s4">Tratamento de Lesões Esportivas</option>
+                                    <option value="s5">Exames de Imagem</option>
+                                    <option value="s6">Consultas de Segunda Opinião</option>
+                                    <option value="s7">Tratamento de Fraturas</option>
+                                    <option value="s8">Injeções Terapêuticas</option>
+                                    <option value="s9">Avaliação da Postura e Marcha</option>
+                                    <option value="s10">Educação do Paciente</option>
+                                    <option value="s11">Consulta de Emergência</option>
+                                    <option value="s12">Acompanhamento Pós-Cirúrgico</option>
+                                </select><br><br>
+                            <label>Gostaria de Realizar um Agendamento?</label>
+                                <input type="radio" name="agendamentosim" value="sim"> Sim
+                                <input type="radio" name="agendamentosim" value="nao"> Não<br>
+                            <label>A dúvida é sobre preços?</label>
+                                <input type="radio" name="precosim" value="psim"> Sim
+                                <input type="radio" name="precosim" value="pnao"> Não<br><br>
+                            <label>Caso deseje agendar, quais são os dias da semana que você possui interesse?</label><br><br>
+                                <input type="checkbox">Segunda-Feira<br>
+                                <input type="checkbox">Terça-Feira<br>
+                                <input type="checkbox">Quarta-Feira<br>
+                                <input type="checkbox">Quinta-Feira<br>
+                                <input type="checkbox">Sexta-Feira<br>
+                                <input type="checkbox">Sábado<br>
+                                <input type="checkbox">Domingo
+
+                    </fieldset><br>
+                    <fieldset>
+                        <legend>Mensagem</legend>
+                            <label>Assunto: </label><input type="text" /><br>
+                            <label>Mensagem: </label><textarea></textarea>
+                        </fieldset><br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8663380775415!2d-46.653836088466235!3d-23.537309360621908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce583f81a5c7b3%3A0xda4eacd3caa34e10!2sR.%20das%20Palmeiras%20-%20Vila%20Buarque%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2016203-127!5e0!3m2!1spt-BR!2sbr!4v1695916004465!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            <div class="footer">
+                <p>Rua das Palmeiras, 1423, São Paulo/SP | Fone: (11) 9876-5432 | E-mail: contato@rodrigosantos.com.br</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
